@@ -1,0 +1,68 @@
+library(qtlnet.prior)
+example(mcmc.qtlnet.prior)
+q()
+library(qtlnet.prior)
+help(package='qtlnet.prior')
+?matrix
+?`:::`
+?propose.new.node.edge
+q()
+library(qtlnet.prior)
+?mcmc.qtlnet.prior
+q()
+library(qtlnet.prior)
+?mcmc.qtlnet
+?mcmc.qtlnet.prior
+init.qtlnet
+propose.add
+qtlnet:::propose.add
+qtlnet.prior:::propose.add
+c.qtlnet
+qtlnet:::c.qtlnet
+qtlnet.prior:::c.qtlnet
+help(package='qtlnet')
+init.qtlnet
+help(package='qtlnet')
+c.qtlnet
+?sim.example1.cross
+all.config
+qtlnet:::all.config
+help(package='qtlnet')
+qtlnet:::score.model.qtlnet
+qtlnet:::score.model
+qtlnet:::calc.bic
+qtlnet:::scan.genome
+q()
+library(qtlnet)
+bic.qtlnet
+bic.join
+?bic.qtlnet
+library(qtlnet.prior)
+?mcmc.qtlnet.prior
+?scanone
+?diag
+q()
+library(qtlnet.prior)
+mcmc.qtlnet
+?mcmc.qtlnet.prior
+q()
+library(qtlnet.prior)
+M.new <- diag(5)#
+M.new[1,2] <- M.new[2,3] <- 1#
+diag(M.new) <- 1#
+#
+beta.old <- 1.2#
+#
+B <- M.new#
+B[1,2] <- 0.8#
+B[2,3] <- 0.7#
+B <- list(B)#
+#
+M <- diag(5)#
+M[3,4] <- M[4,5] <- 1#
+diag(M) <- 0#
+score.prior(M.new, beta.old, B)	#
+score.prior(M, beta.old, B)
+qtlnet.prior:::score.prior(M.new, beta.old, B)
+qtlnet.prior:::score.prior(M, beta.old, B)
+q()

@@ -1,0 +1,6 @@
+2014-07-06 Jee Young Moon
+	* Create qtlnet.prior_0.5.tar.gz
+
+2014-09-16 Jee Young Moon
+        * Added propose.new.node.structure(), node.nbhd.size()
+        * Create qtlnet.prior_0.6.tar.gz
